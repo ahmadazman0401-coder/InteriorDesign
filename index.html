@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Forma Living is a Malaysian interior design and renovation studio creating thoughtful residential and commercial spaces from concept to completion.">
+  <meta name="theme-color" content="#f2efe9">
+  <title>Forma Living | Interior Design & Renovation Malaysia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <a class="brand" href="#top" aria-label="Forma Living home">
+      <span class="brand-symbol" aria-hidden="true"><i></i><i></i></span>
+      <span><strong>FORMA</strong><small>INTERIOR ARCHITECTURE</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#projects">Projects</a><a href="#transformation">Transformations</a><a href="#case-study">Case study</a><a href="#services">Services</a>
+    </nav>
+    <a class="header-inquiry" href="#inquiry">Start a project <span>↗</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span class="sr-only">Open menu</span></button>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation"><a href="#projects">Projects</a><a href="#transformation">Transformations</a><a href="#case-study">Case study</a><a href="#services">Services</a><a href="#inquiry">Start a project</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <p class="micro-label reveal">Interior · Design · Build</p>
+        <h1 id="hero-title" class="reveal">Spaces designed<br>around the way<br><em>you live.</em></h1>
+        <p class="hero-copy reveal">Thoughtful residential and commercial interiors designed from concept to completion.</p>
+        <div class="hero-actions reveal"><a class="button button-dark" href="#projects">View projects <span>↓</span></a><a class="text-action" href="#inquiry">Start a project <span>↗</span></a></div>
+        <p class="hero-location reveal"><span></span>Kuala Lumpur · Selangor</p>
+      </div>
+      <figure class="hero-image reveal"><img src="assets/images/hero/studio-hero.webp" alt="Warm contemporary living room with natural stone, timber and tropical daylight"><figcaption><span>Featured space</span><strong>The Seri Residence</strong><small>Residential · Kuala Lumpur</small></figcaption></figure>
+      <div class="hero-index" aria-hidden="true">01</div>
+      <p class="vertical-note">Forma Living · Malaysia</p>
+    </section>
+
+    <section class="project-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-intro shell reveal">
+        <div><p class="section-code">01 / Portfolio</p><h2 id="projects-title">Selected<br><em>spaces.</em></h2></div>
+        <p>Homes, workplaces and rooms shaped around proportion, material and everyday life. Project details shown are portfolio placeholders and ready to be replaced.</p>
+      </div>
+      <div class="project-controls shell reveal" role="group" aria-label="Filter projects">
+        <button type="button" class="active" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="residential" aria-pressed="false">Residential</button>
+        <button type="button" data-filter="condo" aria-pressed="false">Condo</button>
+        <button type="button" data-filter="landed" aria-pressed="false">Landed</button>
+        <button type="button" data-filter="commercial" aria-pressed="false">Commercial</button>
+      </div>
+      <div class="project-grid shell" id="project-grid" aria-live="polite"></div>
+      <noscript><p class="shell noscript-note">Enable JavaScript to view and filter the project portfolio.</p></noscript>
+    </section>
+
+    <section class="transformation-section" id="transformation" aria-labelledby="transformation-title">
+      <div class="shell">
+        <div class="section-intro inverse reveal"><div><p class="section-code">02 / Renovation</p><h2 id="transformation-title">From existing<br><em>to extraordinary.</em></h2></div><p>Drag across each image to reveal how planning, light, storage and material choices can completely reframe an existing space.</p></div>
+        <div class="transformation-grid">
+          <article class="transformation transformation-main reveal">
+            <div class="comparison" data-comparison style="--image:url('assets/images/before-after/living-room.webp')"><div class="compare-side before" aria-hidden="true"></div><div class="after-clip" aria-hidden="true"><div class="compare-side after"></div></div><span class="compare-tag before-tag">Existing</span><span class="compare-tag after-tag">Completed</span><div class="compare-handle" aria-hidden="true"><b>↔</b></div><input type="range" min="0" max="100" value="50" aria-label="Compare living room before and after renovation"></div>
+            <footer><span>01</span><h3>Living room</h3><p>Terrace house · Selangor</p></footer>
+          </article>
+          <article class="transformation reveal">
+            <div class="comparison" data-comparison style="--image:url('assets/images/before-after/kitchen.webp')"><div class="compare-side before" aria-hidden="true"></div><div class="after-clip" aria-hidden="true"><div class="compare-side after"></div></div><span class="compare-tag before-tag">Existing</span><span class="compare-tag after-tag">Completed</span><div class="compare-handle" aria-hidden="true"><b>↔</b></div><input type="range" min="0" max="100" value="50" aria-label="Compare kitchen before and after renovation"></div>
+            <footer><span>02</span><h3>Kitchen</h3><p>Condominium · Kuala Lumpur</p></footer>
+          </article>
+          <article class="transformation reveal">
+            <div class="comparison" data-comparison style="--image:url('assets/images/before-after/master-bedroom.webp')"><div class="compare-side before" aria-hidden="true"></div><div class="after-clip" aria-hidden="true"><div class="compare-side after"></div></div><span class="compare-tag before-tag">Existing</span><span class="compare-tag after-tag">Completed</span><div class="compare-handle" aria-hidden="true"><b>↔</b></div><input type="range" min="0" max="100" value="50" aria-label="Compare master bedroom before and after renovation"></div>
+            <footer><span>03</span><h3>Master bedroom</h3><p>Condominium · Petaling Jaya</p></footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-study" id="case-study" aria-labelledby="case-title">
+      <div class="case-heading shell reveal"><p class="section-code">03 / Featured case study</p><div><span>Project 01</span><h2 id="case-title">The Seri<br><em>Residence.</em></h2></div></div>
+      <div class="case-hero reveal"><img src="assets/images/projects/project-01-seri-residence.webp" alt="Completed living room at The Seri Residence" loading="lazy"><span class="image-credit">Completed interior · Living room</span></div>
+      <div class="case-facts shell reveal">
+        <dl><div><dt>Property type</dt><dd>Terrace residence</dd></div><div><dt>Location</dt><dd>Kuala Lumpur</dd></div><div><dt>Approx. size</dt><dd>2,400 sq ft</dd></div><div><dt>Design direction</dt><dd>Warm modern</dd></div><div><dt>Scope</dt><dd>Interior design · Renovation · Carpentry</dd></div><div><dt>Year</dt><dd>20XX</dd></div></dl>
+        <div class="case-story"><p class="dropcap">The brief called for a calm family home with better daylight, clearer circulation and storage that would disappear into the architecture.</p><p>We opened the shared spaces, used a restrained palette of limestone, oak and soft textiles, and designed joinery around the family's daily routines. The result is quiet rather than minimal—layered with texture, proportion and places to gather.</p></div>
+      </div>
+      <div class="case-assets shell">
+        <figure class="case-detail detail-one reveal"><img src="assets/images/projects/project-03-contemporary-kitchen.webp" alt="Custom timber kitchen detail" loading="lazy"><figcaption>Custom kitchen · Walnut veneer & honed stone</figcaption></figure>
+        <div class="material-board reveal"><div class="board-title"><span>Material study</span><strong>01 — 05</strong></div><div class="swatches" aria-label="Material palette"><span class="swatch swatch-1">Limestone</span><span class="swatch swatch-2">Natural oak</span><span class="swatch swatch-3">Bronze</span><span class="swatch swatch-4">Linen</span><span class="swatch swatch-5">Forest</span></div></div>
+        <div class="floor-plan reveal" aria-label="Floor plan placeholder"><div class="plan-title"><span>Ground floor plan</span><small>Drawing placeholder · Not to scale</small></div><div class="plan-drawing"><span class="room room-a">Living</span><span class="room room-b">Dining</span><span class="room room-c">Kitchen</span><span class="room room-d">Entry</span><i class="north">N ↑</i></div></div>
+        <figure class="case-detail detail-two reveal"><img src="assets/images/projects/project-02-japandi-condo.webp" alt="Warm timber dining and living detail" loading="lazy"><figcaption>Living & dining · Layered natural light</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="services-section" id="services" aria-labelledby="services-title">
+      <div class="shell services-layout">
+        <div class="services-heading reveal"><p class="section-code">04 / Services</p><h2 id="services-title">One studio.<br><em>Every layer.</em></h2><p>From the first measured drawing to the final built-in cabinet, we keep the design idea consistent across every decision.</p></div>
+        <div class="service-list" data-accordion>
+          <article class="service-item reveal"><button type="button" aria-expanded="false"><span>01</span><strong>Interior Design</strong><small>Concept to documentation</small><i>+</i></button><div class="service-detail"><p>Spatial concept, layout planning, material selection, lighting, detailed drawings and design coordination for a cohesive interior.</p></div></article>
+          <article class="service-item reveal"><button type="button" aria-expanded="false"><span>02</span><strong>Design &amp; Build</strong><small>Single point of coordination</small><i>+</i></button><div class="service-detail"><p>An integrated service combining design, renovation coordination, procurement and site delivery under one clear direction.</p></div></article>
+          <article class="service-item reveal"><button type="button" aria-expanded="false"><span>03</span><strong>Renovation</strong><small>Existing spaces reworked</small><i>+</i></button><div class="service-detail"><p>Targeted or full-property renovation guided by practical sequencing, detailed specifications and site quality reviews.</p></div></article>
+          <article class="service-item reveal"><button type="button" aria-expanded="false"><span>04</span><strong>Space Planning</strong><small>Flow, function &amp; proportion</small><i>+</i></button><div class="service-detail"><p>Layout studies that improve circulation, furniture placement, storage and how every square foot supports daily life.</p></div></article>
+          <article class="service-item reveal"><button type="button" aria-expanded="false"><span>05</span><strong>Custom Carpentry</strong><small>Made for the architecture</small><i>+</i></button><div class="service-detail"><p>Purpose-built kitchens, wardrobes and architectural joinery developed as part of the room rather than added afterward.</p></div></article>
+          <article class="service-item reveal"><button type="button" aria-expanded="false"><span>06</span><strong>Commercial Interior</strong><small>Workplace &amp; retail</small><i>+</i></button><div class="service-detail"><p>Brand-aware workplaces and customer environments designed for operational needs, longevity and a memorable spatial identity.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-section" id="process" aria-labelledby="process-title">
+      <div class="shell"><div class="process-heading reveal"><p class="section-code">05 / Process</p><h2 id="process-title">A clear route<br><em>from idea to home.</em></h2></div><ol class="process-timeline"><li class="reveal"><span>01</span><h3>Consultation</h3><p>Brief, priorities and budget context.</p></li><li class="reveal"><span>02</span><h3>Site visit</h3><p>Measure, assess and understand.</p></li><li class="reveal"><span>03</span><h3>Concept</h3><p>Planning and visual direction.</p></li><li class="reveal"><span>04</span><h3>Design development</h3><p>Materials, details and drawings.</p></li><li class="reveal"><span>05</span><h3>Renovation</h3><p>Site coordination and reviews.</p></li><li class="reveal"><span>06</span><h3>Handover</h3><p>Final checks and completion.</p></li></ol></div>
+    </section>
+
+    <section class="inquiry-section" id="inquiry" aria-labelledby="inquiry-title">
+      <div class="shell inquiry-grid">
+        <div class="inquiry-intro reveal"><p class="section-code">06 / Project inquiry</p><h2 id="inquiry-title">Let's talk about<br><em>your space.</em></h2><p>Share what you know so far. Budget ranges shown here are editable placeholders and do not represent a stated minimum project value.</p><div class="quick-links"><button type="button" data-whatsapp>WhatsApp us <span>↗</span></button><button type="button" data-placeholder-link="location">View location <span>↗</span></button><button type="button" data-placeholder-link="maps">Open Waze / Google Maps <span>↗</span></button></div></div>
+        <form class="inquiry-form reveal" id="inquiry-form">
+          <div class="field-pair"><label>Name<input name="name" autocomplete="name" required placeholder="Your name"></label><label>WhatsApp<input name="phone" type="tel" autocomplete="tel" required placeholder="01X-XXXXXXX"></label></div>
+          <div class="field-pair"><label>Property location<input name="location" required placeholder="City / neighbourhood"></label><label>Property type<select name="propertyType" required><option value="">Select property type</option><option>Condominium</option><option>Terrace house</option><option>Semi-detached</option><option>Bungalow</option><option>Commercial</option><option>Other</option></select></label></div>
+          <div class="field-pair"><label>Approximate size (sq ft)<input name="size" inputmode="numeric" placeholder="e.g. 1,200"></label><label>Project condition<select name="condition" required><option value="">Select condition</option><option>New property</option><option>Existing property renovation</option><option>Partial renovation</option><option>Not sure yet</option></select></label></div>
+          <div class="field-pair"><label>Estimated renovation budget<select name="budget" required><option value="">Select a placeholder range</option><option>Below RM50,000</option><option>RM50,000 – RM100,000</option><option>RM100,000 – RM200,000</option><option>RM200,000+</option><option>Not sure yet</option></select></label><label>Expected completion date<input name="completion" type="text" placeholder="e.g. December 20XX"></label></div>
+          <label>Message<textarea name="message" rows="5" required placeholder="Tell us about the rooms, priorities and result you have in mind..."></textarea></label>
+          <button class="submit-button" type="submit"><span>Send project details</span><b>Continue on WhatsApp ↗</b></button>
+          <p class="form-note">No commitment is created by this form. Project scope, availability and fees are confirmed separately.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-main"><a class="brand" href="#top"><span class="brand-symbol" aria-hidden="true"><i></i><i></i></span><span><strong>FORMA</strong><small>INTERIOR ARCHITECTURE</small></span></a><p>Thoughtful interiors designed from concept to completion.</p><div><a href="#projects">Projects</a><a href="#case-study">Case study</a><a href="#services">Services</a><a href="#inquiry">Enquire</a></div></div><div class="shell footer-bottom"><span>© <span data-year></span> Forma Living</span><span>Kuala Lumpur · Selangor · Malaysia</span><a href="#top">Back to top ↑</a></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
